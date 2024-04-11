@@ -1,8 +1,7 @@
 import requests
 import sys
 
-for
-res = requests.get(url=f"http://google.com")
+res = requests.get(url="https://api.apis.guru/v2/list.json")  #this is an example api
 print(res)
 
 data = res.cookies

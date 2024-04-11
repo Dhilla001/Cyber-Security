@@ -1,6 +1,6 @@
 def sqt(height, width):
     root = height * width
-    print(f"square root of the given width and height is{root}")
+    print(f"square root of the given width and height is {root}")
 
 
 ht = int(input("enter the height:"))
