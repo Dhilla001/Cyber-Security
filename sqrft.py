@@ -1,9 +1,9 @@
 def sqt(height, width):
     root = height * width
-    print(f"square root of the given width and height is {root}")
+    print(f"The Square Feet of the room is {root}")
 
 
-ht = int(input("enter the height:"))
-wt = int(input("enter the width:"))
+ht = int(input("Enter the length of the room:"))
+wt = int(input("Enter the width of the room:"))
 
 sqt(ht, wt)
